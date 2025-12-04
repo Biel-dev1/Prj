@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FF XTREME</string>
+    
+    <string name="login_title">FF XTREME</string>
+    <string name="login_subtitle">PREMIUM PANEL</string>
+    <string name="login_status">● ONLINE</string>
+    
+    <string name="hint_username">Usuário</string>
+    <string name="hint_password">Senha</string>
+    <string name="hint_license">Chave de Licença</string>
+    
+    <string name="btn_login">ENTRAR</string>
+    <string name="btn_save">SALVAR CONFIG</string>
+    <string name="btn_load">CARREGAR CONFIG</string>
+    <string name="btn_reset">RESETAR</string>
+    
+    <string name="tab_aimbot">AIMBOT</string>
+    <string name="tab_visual">VISUAL</string>
+    <string name="tab_misc">MISC</string>
+    <string name="tab_config">CONFIG</string>
+    
+    <string name="aimbot_active">Aimbot Ativo</string>
+    <string name="auto_fire">Auto Fire</string>
+    <string name="silent_aim">Silent Aim</string>
+    <string name="fov_label">FOV</string>
+    <string name="smoothness_label">Suavidade</string>
+    
+    <string name="esp_players">ESP Jogadores</string>
+    <string name="box_2d_3d">Caixas 2D/3D</string>
+    <string name="aim_lines">Linhas de Mira</string>
+    <string name="player_name">Nome do Jogador</string>
+    <string name="health_bar">Barra de Vida</string>
+    <string name="distance">Distância</string>
+    <string name="wallhack">Wallhack</string>
+    
+    <string name="no_recoil">No Recoil</string>
+    <string name="no_spread">No Spread</string>
+    <string name="rapid_fire">Rapid Fire</string>
+    <string name="speed_hack">Speed Hack</string>
+    <string name="god_mode">God Mode</string>
+    <string name="fly_hack">Fly Hack</string>
+    <string name="speed_label">Velocidade</string>
+    
+    <string name="user_info">Informações do Usuário</string>
+    <string name="status_label">Status:</string>
+    <string name="status_undetected">UNDETECTED</string>
+    <string name="license_label">Licença:</string>
+    <string name="license_value">PREMIUM</string>
+    <string name="expires_label">Expira:</string>
+    <string name="expires_value">LIFETIME</string>
+    
+    <string name="fps_label">FPS: %d</string>
+    <string name="ping_label">PING: %dms</string>
+    
+    <string name="warning_simulation">⚠️ SIMULAÇÃO APENAS - Nenhuma função é real</string>
+    <string name="config_saved">Configuração salva!</string>
+    <string name="config_loaded">Configuração carregada!</string>
+    <string name="config_reset">Configurações resetadas!</string>
+</resources>

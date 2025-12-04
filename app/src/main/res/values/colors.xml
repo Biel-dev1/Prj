@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#FF3232</color>
+    <color name="primary_dark">#CC2828</color>
+    <color name="primary_light">#FF5555</color>
+    
+    <color name="background_dark">#191923</color>
+    <color name="background_card">#252532</color>
+    <color name="background_input">#2A2A3D</color>
+    
+    <color name="text_white">#FFFFFF</color>
+    <color name="text_gray">#9999AA</color>
+    <color name="text_dark">#666677</color>
+    
+    <color name="status_online">#00FF00</color>
+    <color name="status_undetected">#00FF00</color>
+    <color name="status_warning">#FFD700</color>
+    <color name="status_error">#FF0000</color>
+    
+    <color name="switch_track_off">#404050</color>
+    <color name="switch_thumb_off">#888899</color>
+    
+    <color name="slider_inactive">#404050</color>
+    
+    <color name="divider">#3A3A4D</color>
+    
+    <color name="transparent">#00000000</color>
+</resources>
