@@ -1,1 +1,52 @@
+workflows:
+  android-build:
+    name: FF XTREME Android Build
+    max_build_duration: 60
+    instance_type: mac_mini_m2
+    
+    environment:
+      java: 17
+      vars:
+        PACKAGE_NAME: "com.ffxtreme.app"
+    
+    triggering:
+      events:
+        - push
+        - pull_request
+      branch_patterns:
+        - pattern: 'main'
+          include: true
+          source: true
+        - pattern: 'master'
+          include: true
+          source: true
+    
+    scripts:
+      - name: Set up local.properties
+        script: |
+          echo "sdk.dir=$ANDROID_SDK_ROOT" > "$CM_BUILD_DIR/local.properties"
+      
+      - name: Make gradlew executable
+        script: |
+          chmod +x ./gradlew
+      
+      - name: Build Debug APK
+        script: |
+          ./gradlew assembleDebug
+      
+      - name: Build Release APK (unsigned)
+        script: |
+          ./gradlew assembleRelease
+    
+    artifacts:
+      - app/build/outputs/**/*.apk
+      - app/build/outputs/**/mapping.txt
+    
+    publishing:
+      email:
+        recipients:
+          - user@example.com
+        notify:
+          success: true
+          failure: true
 
